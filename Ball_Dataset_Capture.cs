@@ -20,7 +20,7 @@ public class Ball_Dataset_Capture : MonoBehaviour
             // Reposition balls
             GetComponent<Ball_Randomizer>().RandomizeBalls();  
             // Random ball hiding
-            // GetComponent<Ball_Randomizer>().RandomlyHideBalls();
+            GetComponent<Ball_Randomizer>().RandomlyHideBalls(0.4f);
             // Random material application
             GetComponent<Material_Randomizer>().RandomizeMaterials();
             // Reposition Camera

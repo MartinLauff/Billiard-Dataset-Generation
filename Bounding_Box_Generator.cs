@@ -35,7 +35,7 @@ public class Bounding_Box_Generator : MonoBehaviour
 
         foreach (GameObject ball in billiardBalls)
         {
-            // ✅ Skip balls that are hidden (inactive)
+            // Skip balls that are hidden (inactive)
             if (!ball.activeInHierarchy) continue;
 
            // Calculate precise bounding box using mesh vertices
@@ -148,7 +148,7 @@ public class Bounding_Box_Generator : MonoBehaviour
         }
     }
 
-    // 🔹 Calculate accurate bounding box from the object's MeshFilter
+    // Calculate accurate bounding box from the object's MeshFilter
     private Rect CalculateBoundingBox(GameObject obj)
     {
         if (obj == null) return new Rect(0, 0, 0, 0);

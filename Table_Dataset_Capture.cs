@@ -52,32 +52,6 @@ public class Table_Dataset_Capture : MonoBehaviour
                 yield return new WaitForSeconds(timeBlocker);
             }
         }
-        // for (int i = 0; i < numImages; i++) {
-        //     // Reposition balls
-        //     GetComponent<Ball_Randomizer>().RandomizeBalls();  
-        //     // Random ball hiding
-        //     GetComponent<Ball_Randomizer>().RandomlyHideBalls(0.8f);
-        //     // Random material application
-        //     GetComponent<Material_Randomizer>().RandomizeMaterials();
-        //     // Reposition Camera
-        //     GetComponent<Camera_Randomizer>().RandomizeCameraForTableView();
-        //     yield return new WaitForSeconds(timeBlocker);
-             
-        //     // Take screenshot
-        //     bool canContinue = CaptureImage(i);
-
-        //     if(canContinue) {
-        //     // 1. Switch to segmentation material
-        //     GetComponent<Material_Randomizer>().ApplySegmentationMaterial();
-
-        //     // 2. Capture segmentation mask
-        //     CaptureSegmentation(i);
-
-        //     // 3. Restore original materials
-        //     GetComponent<Material_Randomizer>().RestoreOriginalMaterials();
-        //     }
-        //     yield return new WaitForSeconds(timeBlocker);
-        // }
     }
 
     void CaptureImage(int index) 

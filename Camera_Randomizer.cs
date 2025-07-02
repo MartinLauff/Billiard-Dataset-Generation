@@ -41,11 +41,6 @@ public class Camera_Randomizer : MonoBehaviour
             Random.Range(ballViewMin.y, ballViewMax.y),
             Random.Range(ballViewMin.z, ballViewMax.z)
         );
-        // Vector3 newPosition = new Vector3(
-        //     Random.Range(tableViewMin.x, tableViewMax.x),
-        //     Random.Range(tableViewMin.y, tableViewMax.y),
-        //     Random.Range(tableViewMin.z, tableViewMax.z)
-        // );
 
         // Apply same transform to both cameras
         datasetCamera.transform.position = newPosition;

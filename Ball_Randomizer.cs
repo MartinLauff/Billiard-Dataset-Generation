@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Ball_Randomizer: MonoBehaviour 
 {
-    public GameObject[] billiardBalls; // Assign in Unity Inspector
-    public float tableWidth = 1.8f;  // Adjust based on table size
+    public GameObject[] billiardBalls;
+    public float tableWidth = 1.8f;
     public float tableHeight = 0.9f;
 
     void Start() 

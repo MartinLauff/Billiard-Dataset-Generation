@@ -4,35 +4,18 @@ using System.Collections.Generic;
 
 public class Material_Randomizer : MonoBehaviour
 {
-    public Renderer floor;    // Assign the floor object
-    public Renderer table;    // Assign the table object
-    public Renderer cushions; // Assign the cushions object
-    public Renderer[] walls;  // Assign all wall objects
-    public Material[] wallMaterials;  // Assign different wall materials
-    public Material[] floorMaterials; // Assign different floor materials
-    public Material[] tableMaterials; // Assign different table materials
+    public Renderer floor;
+    public Renderer table;
+    public Renderer cushions;
+    public Renderer[] walls;
+    public Material[] wallMaterials;
+    public Material[] floorMaterials;
+    public Material[] tableMaterials;
 
     public Material segmentationMaterial;
     public Material initialMaterial;
     public GameObject[] pocketObjects;
     private Dictionary<GameObject, Material[]> originalMaterials = new Dictionary<GameObject, Material[]>();
-
-    // void Start()
-    // {        
-    //     if(pocketObjects.Length != 6) {
-    //         Debug.LogError("Not enough pockets! " + pocketObjects.Length);
-    //         return;
-    //     }
-    //     // Store original materials
-    //     foreach (GameObject obj in pocketObjects)
-    //     {
-    //         Renderer renderer = obj.GetComponent<Renderer>();
-    //         if (renderer != null)
-    //         {
-    //             originalMaterials[obj] = renderer.sharedMaterials;
-    //         }
-    //     }
-    // }
 
     public void RandomizeMaterials()
     {
@@ -94,15 +77,4 @@ public class Material_Randomizer : MonoBehaviour
             }
         }
     }
-    // public void RestoreOriginalMaterials()
-    // {
-    //     foreach (GameObject obj in pocketObjects)
-    //     {
-    //         Renderer renderer = obj.GetComponent<Renderer>();
-    //        if (renderer != null && originalMaterials.ContainsKey(obj))
-    //         {
-    //             renderer.materials = originalMaterials[obj];
-    //         }
-    //     }
-    // }
 }
