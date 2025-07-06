@@ -3,11 +3,11 @@
 Codebase provides all nessasary features for quality billiard dataset generation, that is suitable for both **detection** or **segmentation** tasks. The generated annotations are in YOLO format.
 
 <div style="display: flex; gap: 10px;">
-  <video controls width="300">
+  <video controls width="270">
     <source src="https://github.com/user-attachments/assets/2102da6d-0546-42bc-bb2d-622053ca4628" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <video controls width="300">
+  <video controls width="270">
     <source src="https://github.com/user-attachments/assets/30542e4c-f80f-42df-8ee1-b1a279540b26" type="video/mp4">
     Your browser does not support the video tag.
   </video>
