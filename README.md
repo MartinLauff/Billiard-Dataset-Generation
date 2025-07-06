@@ -2,9 +2,6 @@
 
 Codebase provides all nessasary features for quality billiard dataset generation, that is suitable for both **detection** or **segmentation** tasks. The generated annotations are in YOLO format.
 
-https://github.com/user-attachments/assets/30542e4c-f80f-42df-8ee1-b1a279540b26
-
-
 ### Billiard Ball Dataset Generation (detection task)
 
 `Ball_Dataset_Capture` class generates dataset for detecting and classifying the billiard balls.
@@ -41,3 +38,4 @@ At each iteration:
 <img src="https://github.com/user-attachments/assets/e3dbddf3-b017-4057-85e0-e84df8343648" width="300">
 <img src="https://github.com/user-attachments/assets/ae37b793-5429-466c-a901-70b1316db4ac" width="300">
 
+https://github.com/user-attachments/assets/30542e4c-f80f-42df-8ee1-b1a279540b26
