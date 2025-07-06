@@ -3,6 +3,8 @@
 Codebase provides all nessasary features for quality billiard dataset generation, that is suitable for both **detection** or **segmentation** tasks. The generated annotations are in YOLO format.
 
 https://github.com/user-attachments/assets/2102da6d-0546-42bc-bb2d-622053ca4628
+https://github.com/user-attachments/assets/30542e4c-f80f-42df-8ee1-b1a279540b26
+
 
 ### Billiard Ball Dataset Generation (detection task)
 
