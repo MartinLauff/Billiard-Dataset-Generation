@@ -33,7 +33,8 @@ At each iteration:
 7. **Restore original materials.**
 8. Take a screenshot.
 
-![Visualized Contours](https://github.com/user-attachments/assets/e3dbddf3-b017-4057-85e0-e84df8343648)
 
-![Segmentation Mask](https://github.com/user-attachments/assets/ae37b793-5429-466c-a901-70b1316db4ac)
+<img src="https://github.com/user-attachments/assets/e3dbddf3-b017-4057-85e0-e84df8343648" width="300">
+
+<img src="https://github.com/user-attachments/assets/ae37b793-5429-466c-a901-70b1316db4ac" width="300">
 
