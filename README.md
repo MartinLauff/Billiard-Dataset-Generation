@@ -4,11 +4,11 @@ Codebase provides all nessasary features for quality billiard dataset generation
 
 <div style="display: flex; gap: 10px;">
   <video controls width="270">
-    <source src="https://github.com/MartinLauff/Billiard-Dataset-Generation/assets/2102da6d-0546-42bc-bb2d-622053ca4628" type="video/mp4">
+    <source src="https://raw.githubusercontent.com/MartinLauff/Billiard-Dataset-Generation/main/assets/2102da6d-0546-42bc-bb2d-622053ca4628" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video controls width="270">
-    <source src="https://github.com/MartinLauff/Billiard-Dataset-Generation/assets/30542e4c-f80f-42df-8ee1-b1a279540b26" type="video/mp4">
+    <source src="https://raw.githubusercontent.com/MartinLauff/Billiard-Dataset-Generation/main/assets/30542e4c-f80f-42df-8ee1-b1a279540b26" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
