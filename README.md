@@ -2,8 +2,6 @@
 
 Codebase provides all nessasary features for quality billiard dataset generation, that is suitable for both **detection** or **segmentation** tasks. The generated annotations are in YOLO format.
 
-https://github.com/user-attachments/assets/2102da6d-0546-42bc-bb2d-622053ca4628
-
 https://github.com/user-attachments/assets/30542e4c-f80f-42df-8ee1-b1a279540b26
 
 
@@ -19,6 +17,11 @@ At each iteration:
 5. Take a screenshot.
 6. Generate precise YOLO style annotations based on mesh vertices.
 
+### Billiard Ball Detection and Classification
+https://github.com/user-attachments/assets/2102da6d-0546-42bc-bb2d-622053ca4628
+
+https://github.com/user-attachments/assets/21382fc6-f23d-4beb-a69d-3a1f11196955
+
 ### Billiard Pocket Dataset Generation (segmentation task)
 
 `Table_Dataset_Capture` class generates dataset of pockets with regular images in one folder and segmentation masks in the other.
@@ -33,7 +36,7 @@ At each iteration:
 7. **Restore original materials.**
 8. Take a screenshot.
 
-Visialized Contours and Segmentation Mask
+### Visualised Contours & Segmentation Mask
 
 <img src="https://github.com/user-attachments/assets/e3dbddf3-b017-4057-85e0-e84df8343648" width="300">
 <img src="https://github.com/user-attachments/assets/ae37b793-5429-466c-a901-70b1316db4ac" width="300">
